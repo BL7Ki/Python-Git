@@ -1,10 +1,11 @@
-from tkinter import *
-from gtts import *
-from playsound import playsound
-import os
+from tkinter import * # tkinter para interfaces graficas, das mais simples as mais complexas
+from gtts import * # import google text to speech
+from playsound import playsound # import funcao playsound
+import os # biblioteca para interagir com o sistema operacional(obter info do sistema, criar diretórios)
 
 # error 259 command, arquivo mp3 n funcionando ver depois, talvez seja versao do playsound 
 
+# variaveis para customizar a interface
 root = Tk()
 root.title = ('Texto em fala')
 root.geometry('500x420')
